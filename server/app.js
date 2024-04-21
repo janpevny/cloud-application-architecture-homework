@@ -3,7 +3,6 @@ const cors = require("cors");
 const app = express();
 const port = 8000;
 
-const eventController = require("./controller/event");
 const strategyController = require("./controller/strategy");
 const tradeController = require("./controller/trade");
 
@@ -16,7 +15,6 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.use("/event", eventController);
 app.use("/strategy", strategyController);
 app.use("/trade", tradeController);
 
