@@ -3,21 +3,25 @@ import { Outlet, Link } from "react-router-dom";
 function Layout() {
     return (
         <>
-            <nav>
-                <ul>
-                    <li>
-                        <Link to="/">Portfolio</Link>
-                    </li>
-                    <li>
-                        <Link to="/strategy-list">Strategy List</Link>
-                    </li>
-                    <li>
-                        <Link to="/strategy-detail/strategyId">Strategy Detail</Link>
-                    </li>
-                </ul>
+            <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div className="container-fluid">
+                    <Link className="navbar-brand" to="/strategy/list">Traders Analysis</Link>
+                    <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                        <span className="navbar-toggler-icon"></span>
+                    </button>
+                    <div className="collapse navbar-collapse" id="navbarNav">
+                        <ul className="navbar-nav">
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/strategy/list">Strategy List</Link>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </nav>
 
-            <Outlet />
+            <Outlet/>
         </>
     )
 }

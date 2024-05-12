@@ -1,1 +1,1 @@
-{"ticker":"GOOG","strategyId":"291e5c0c1bf58e1db819a9ea13b7c26a","tradeType":"short","amount":50,"entryDateTime":"2024-04-21T08:32:25Z","entryPrice":1200,"exitDateTime":"2024-04-22T08:32:25Z","exitPrice":1210,"notes":"Not profitable trade","id":"9348a7fdec142fa9feb8c6161cf1e9c2"}
+{"ticker":"GOOG","strategyId":"291e5c0c1bf58e1db819a9ea13b7c26a","tradeType":"short","amount":50,"entryDateTime":"2024-04-21T08:32:25","entryPrice":1200,"exitDateTime":"2024-04-22T08:32:25","exitPrice":1210,"notes":"Not profitable trade","id":"9348a7fdec142fa9feb8c6161cf1e9c2"}

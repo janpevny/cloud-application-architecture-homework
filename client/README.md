@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+alphavantage.com API KEY: AWK6JIA0U4AC2WP6
+https://www.alphavantage.co/query?function=GLOBAL_QUOTE&symbol=AAPL&apikey=AWK6JIA0U4AC2WP6
